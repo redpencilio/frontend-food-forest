@@ -2,10 +2,13 @@
   "name": "frontend-centrale-vindplaats",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for frontend-centrale-vindplaats goes here",
-  "repository": "",
+  "description": "Frontend of Centrale Vindplaats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lblod/frontend-centrale-vindplaats.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "redpencil.io",
   "directories": {
     "doc": "doc",
     "test": "tests"
