@@ -54,7 +54,8 @@
     "eslint-plugin-node": "^11.0.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
-    "qunit-dom": "^1.1.0"
+    "qunit-dom": "^1.1.0",
+    "ember-metis": "git://github.com/redpencilio/ember-metis.git#dev/route-generator"
   },
   "engines": {
     "node": "10.* || >= 12"
