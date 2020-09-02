@@ -62,5 +62,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "metis": "git://github.com/redpencilio/ember-metis.git#dev/route-generator"
   }
 }
