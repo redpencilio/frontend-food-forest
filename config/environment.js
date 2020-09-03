@@ -8,7 +8,12 @@ module.exports = function(environment) {
     locationType: 'auto',
     metis: {
       routes: {},
-      baseUrl: "http://data.lblod.info/"
+      baseUrl: "http://data.lblod.info/",
+      serverUrl: "http://data.lblod.info/"
+
+    },
+    fastboot: {
+      hostWhitelist: ["localhost:4200","redpencil.io"]
     },
     EmberENV: {
       FEATURES: {
