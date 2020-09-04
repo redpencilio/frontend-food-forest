@@ -34,7 +34,6 @@
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.18.0",
     "ember-cli-dependency-checker": "^3.2.0",
-    "ember-cli-fastboot": "^2.2.3",
     "ember-cli-htmlbars": "^4.2.3",
     "ember-cli-inject-live-reload": "^2.0.2",
     "ember-cli-sri": "^2.1.1",
@@ -44,7 +43,6 @@
     "ember-fetch": "^7.0.1",
     "ember-load-initializers": "^2.1.1",
     "ember-maybe-import-regenerator": "^0.1.6",
-    "ember-metis": "git://github.com/redpencilio/ember-metis.git",
     "ember-modifier": "^1.0.3",
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^7.0.0",
@@ -65,6 +63,8 @@
     "edition": "octane"
   },
   "dependencies": {
-    "metis": "git://github.com/redpencilio/ember-metis.git#dev/route-generator"
+    "build-url": "^6.0.1",
+    "ember-cli-fastboot": "^2.2.3",
+    "metis": "git://github.com/redpencilio/ember-metis.git#dev/fastboot"
   }
 }
