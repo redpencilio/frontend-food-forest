@@ -9,7 +9,7 @@ module.exports = function(environment) {
     metis: {
       routes: {},
       baseUrl: "http://data.lblod.info/",
-      serverUrl: "http://localhost:4200"
+      serverUrl: "http://localhost:4200/"
 
     },
     fastboot: {
