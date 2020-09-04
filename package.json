@@ -63,8 +63,6 @@
     "edition": "octane"
   },
   "dependencies": {
-    "build-url": "^6.0.1",
-    "ember-cli-fastboot": "^2.2.3",
-    "metis": "git://github.com/redpencilio/ember-metis.git#dev/fastboot"
+    "metis": "git://github.com/redpencilio/ember-metis.git"
   }
 }
