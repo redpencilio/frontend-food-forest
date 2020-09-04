@@ -6,6 +6,15 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    metis: {
+      routes: {},
+      baseUrl: "http://data.lblod.info/",
+      serverUrl: "http://data.lblod.info/"
+
+    },
+    fastboot: {
+      hostWhitelist: ["localhost:4200","redpencil.io"]
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
