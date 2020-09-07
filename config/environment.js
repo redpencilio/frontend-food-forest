@@ -9,11 +9,11 @@ module.exports = function(environment) {
     metis: {
       routes: {},
       baseUrl: "http://data.lblod.info/",
-      serverUrl: "http://localhost:4200/"
+      serverUrl: "http://localhost/"
 
     },
     fastboot: {
-      hostWhitelist: ["localhost:4200","redpencil.io"]
+      hostWhitelist: [/^localhost(:[0-9]*)?/, "localhost"]
     },
     EmberENV: {
       FEATURES: {
