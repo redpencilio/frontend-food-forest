@@ -94,7 +94,9 @@ Instead of writing ``` ember generate route person ``` You can generate an rdf r
 
 ## Config
 
-In your ``` /frontend-centrale-vindplaats/config/environment ``` you should see a metis object under ENV where you can change the <b> baseUrl </b>
+In your ``` /frontend-centrale-vindplaats/config/environment ``` you should see a metis object under ENV where you can change the <b> baseUrl </b> <br>
+By default you will the baseUrl is set to ``` EMBER_METIS_BASE_URL ```. This is a special string that, when using docker-compose, will be replaced by the environment variable BASE_URL ( see [app-centrale-vindplaats](https://github.com/lblod/app-centrale-vindplaats#environment) ) for more information.
+To overide this behavior you simply replace the baseUrl value in your environment.js file by any other URL. 
 
 ## Relavant Addons
 
