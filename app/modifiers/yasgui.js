@@ -1,8 +1,11 @@
 import { modifier } from 'ember-modifier';
 import Yasgui from '@triply/yasgui';
+import env from '../config/environment';
 
-const defaultQuery =
-`PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+
+const defaultQuery = env.yasGui.defaultQuery !== "EMBER_YASGUI_DEFAULT_QUERY"
+  ? env.yasGui.defaultQuery
+  : `PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
 PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
 PREFIX lblodlg: <http://data.lblod.info/vocabularies/leidinggevenden/>
 

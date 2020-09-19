@@ -10,6 +10,10 @@ module.exports = function(environment) {
       routes: {},
       baseUrl: "EMBER_METIS_BASE_URL"
     },
+    yasgui: {
+      // NOTE: look at app/modifiers/yasgui.js when changing this variable
+      defaultQuery: "EMBER_YASGUI_DEFAULT_QUERY"
+    },
     fastboot: {
       hostWhitelist: [/^localhost(:[0-9]*)?/, "localhost"]
     },
