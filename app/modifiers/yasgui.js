@@ -3,7 +3,7 @@ import Yasgui from '@triply/yasgui';
 import env from '../config/environment';
 
 
-const defaultQuery = env.yasGui.defaultQuery !== "EMBER_YASGUI_DEFAULT_QUERY"
+const defaultQuery = env.yasgui.defaultQuery !== "EMBER_YASGUI_DEFAULT_QUERY"
   ? env.yasGui.defaultQuery
   : `PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
 PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
@@ -20,4 +20,6 @@ export default modifier(function yasgui(element/*, params, hash*/) {
     autofocus: true
   });
   yasgui.config.yasqe.value = defaultQuery;
+  if( env.yasgui.extraPrefixes !== "EMBER_YASGUI_EXTRA_PREFIXES" )
+    yasgui.config.yasqe.addPrefixes( JSON.parse(env.yasGui.extraPrefixes) );
 });

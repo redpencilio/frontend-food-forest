@@ -9,6 +9,6 @@ RUN npm install
 COPY . .
 RUN ember build --environment production
 
-FROM aatauil/fastboot-app-server:latest
+FROM redpencil/fastboot-app-server
 
 COPY --from=builder /app/dist /app

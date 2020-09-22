@@ -1,4 +1,8 @@
 <h1>Centrale Vindplaats: SPARQL</h1>
 
-<div {{yasgui}}></div>
+{{#if this.fastboot.isFastBoot}}
+  ... waiting for page to become interactive ...
+{{else}}
+  <div {{yasgui}}></div>
+{{/if}}
 {{outlet}}

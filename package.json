@@ -56,7 +56,7 @@
     "eslint-plugin-ember": "^7.10.1",
     "eslint-plugin-node": "^11.0.0",
     "loader.js": "^4.7.0",
-    "metis": "git://github.com/redpencilio/ember-metis.git",
+    "metis": "github:redpencilio/ember-metis#feature/env-vars",
     "npm-run-all": "^4.1.5",
     "qunit-dom": "^1.1.0"
   },
